@@ -13,7 +13,7 @@ read the scripts file to run the code.
 
 
 Step 1: 
-
+```bash
 git clone https://github.com/bhattacharyyadeep/UKABS-
 
 Step 2: Arrange the datasets 
@@ -27,8 +27,10 @@ Step 2: Arrange the datasets
 and install all the requirement from requirements_2.txt using
 pip intall -r requirements_2.txt 
 
-Step 3:
+```
 
+Step 3:
+ ```bash
 dataset_dir = '/inputs'
 dataset = 'busi'
 input_size = 256
@@ -43,16 +45,16 @@ This how to train the model architecture. For glas dataset use image size 512.
 # for ACDC check the train_acdc.py and run it this way 
 python train_acdc.py
 
-
+```
 
 
 Step 4: 
-
+```bash
 outputs_dir = 'busi_ukabs_run'
 dataset='busi'
 !python val.py --name {dataset}_UKABS --output_dir {outputs_dir}
 
 # for ACDC
  python val_acdc.py
-
+```
 This is the validation code to generate the masks as well 
