@@ -9,7 +9,7 @@ Medical image segmentation plays a vital role in diagnosis and treatment plannin
 
 
 
-read the scripts file to run the code.
+read the scripts file to run the code also described in this readme file.
 
 
 Step 1: 
